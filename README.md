@@ -1,1 +1,1 @@
-# Timed-Quiz
+This is a time quiz on music. It provides a scorecard at the end and saves a highscore so you can compare yourself against others who take the test. 
