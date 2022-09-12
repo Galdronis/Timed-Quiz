@@ -53,22 +53,6 @@ var questionsArray = [
     },
 ]
 
-var questionCap = 3
-
-gameStart = () => {
-    questionNumber = 0
-    score = 0
-    timer = 30
-    availableQuestions = [...questionsArray]
-    newQuestion(timer)
-    startTimer()
-}
-
-newQuestion() = (timer) => {
-    if(questionsArray.length === 0 || questionNumber === questionCap || timer <= 0) {
-        localStorage.setItem(currentScore)
-    }
-}
 
 function startTimer(){
     timer = 30
