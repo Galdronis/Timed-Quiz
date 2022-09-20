@@ -19,31 +19,7 @@
     font-size: larger;
 }
 
-#choiceOne {
-    background-color: aquamarine;
-    border: 2px;
-    border-style: solid;
-    border-radius: 5px;
-    width: fit-content;
-}
-
-#choiceTwo {
-    background-color: aquamarine;
-    border: 2px;
-    border-style: solid;
-    border-radius: 5px;
-    width: fit-content;
-}
-
-#choiceThree {
-    background-color: aquamarine;
-    border: 2px;
-    border-style: solid;
-    border-radius: 5px;
-    width: fit-content;
-}
-
-#choiceFour {
+.choiceAnswer {
     background-color: aquamarine;
     border: 2px;
     border-style: solid;
